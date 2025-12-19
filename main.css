@@ -337,6 +337,16 @@ span{
    background-color: var(--Cyan-400);
    padding: 12px 115px;
 }
+#form-email:hover{
+  color: var(--Blue-Gray-500);
+  text-shadow: #FF2965;
+  border: 2px solid var(--Neutral-900);
+}
+#btn:hover{
+  color: var(--Neutral-900);
+  text-shadow: var(--Red-400);
+  border: 2px solid var(--Neutral-400);
+}
 /* =========================
    DESCKTOP RESPONSIVE
    ========================= */
