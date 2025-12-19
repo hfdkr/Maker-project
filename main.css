@@ -83,7 +83,8 @@ body{
     line-height: 160%;
     color: var(--Neutral-400);
 } 
- .hero button {
+ 
+.hero button {
   background: transparent;
   border: 2px solid var(--Blue-Gray-500);
   width: 26px;
@@ -95,6 +96,7 @@ body{
 }
 
 .hero button::after {
+  content: '';
   position: absolute;
   top: 6px;
   left: 50%;
@@ -134,15 +136,14 @@ body{
    height: 120px;
    gap: 10px;
    border-radius: 32px;
-
-
 }
-
+/* styl box img */
  .hero-box .box img {
   display: block;
   width: 48px;
   height: auto;
 }
+/* style all content of hero-box */
 .main-content .hero-box h3{
     font-family: 'text-preset-4';
     font-weight: 800;
@@ -337,6 +338,15 @@ span{
    padding: 12px 115px;
 }
 /* =========================
-   TABLET RESPONSIVE
+   DESCKTOP RESPONSIVE
    ========================= */
+@media (min-width:992px)and(max-width:2000px){
+  .all-box{
+    display: flex;
+    justify-content: space-between;
+  }
+  .hero-box{
+    display: flex;
 
+  }
+}
